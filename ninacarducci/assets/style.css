@@ -17,11 +17,16 @@ header {
 	padding-block: 30px;
 	align-items: center;
 }
-
-header .name {
+h1 {
 	font-size: 26px;
 }
-
+h2 {
+	text-align: center;
+	padding-block: 2em;
+	margin-top: 1em;
+	margin-bottom: 60px;
+	font-size: 30px;
+}
 .nav ul {
 	display: flex;
 	list-style-type: none;
@@ -37,11 +42,9 @@ header .name {
 	text-decoration: none;
 	color: #000
 }
-
 .social-link img {
 	width: 20px;
 }
-
 #about {
 	display: flex;
 	background-color: #F6D2B8;
@@ -49,7 +52,6 @@ header .name {
 	padding-block: 100px;
 	position: relative;
 }
-
 .picture.left::before {
 	content: ' ';
 	background-color: #E5975F;
@@ -60,24 +62,17 @@ header .name {
 	left: 0;
 	z-index: -1;
 }
-
 .picture {
 	flex: 1;
 	margin: 0 20px;
 	z-index: 0;
 }
-
 .picture img {
 	width: 100%;
 
 }
 #about-me {
 	flex: 2
-}
-.about-me__title {
-	margin-top: 1em;
-	margin-bottom: 60px;
-	font-size: 30px;
 }
 .about-me__introduction {
 	font-family: 'Spectral';
@@ -88,11 +83,6 @@ header .name {
 #about-me p {
 	width: 80%;
 	font-size: 14px;
-}
-
-.title{
-	text-align: center;
-	padding-block: 2em;
 }
 .gallery .nav {
 	justify-content: center;
@@ -132,8 +122,6 @@ header .name {
 	display: flex;
 	font-size: 24px;
 }
-
-
 .quote {
 	width: 70%;
 	margin: auto;
@@ -174,7 +162,6 @@ header .name {
 	padding : 2em 0;
 
 }
-
 .service {
 	background-color: white;
 	max-width: 390px;
@@ -186,7 +173,6 @@ header .name {
 	justify-content: space-between;
 	z-index: 1;
 }
-
 footer {
 	margin: auto;
 	background-color: #D8D3A8 ;
@@ -194,7 +180,6 @@ footer {
 	padding-inline: 100px;
 	padding-block: 100px;
 }
-
 footer .container {
 	display: flex;
 }
@@ -321,7 +306,7 @@ input[type="submit"] {
 		flex-direction: column;
 		padding-inline: 0;
 	}
-	header .nav, .top-header .nav ul {
+	header .nav, .nav ul {
 		width: 100%;
 		padding: 0 0 0 0;
 	}
