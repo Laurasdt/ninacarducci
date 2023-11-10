@@ -89,6 +89,9 @@ header h1 {
 	font-size: 14px;
 }
 
+.gallery {
+	display: none;
+}
 .title {
 	text-align: center;
     padding-block: 2em;
